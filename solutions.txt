@@ -1,0 +1,3 @@
+Q7: post: you get form fields, we set the varible X to Y?
+    get: no form fields 
+Q8:
