@@ -1,6 +1,9 @@
-Q1: https://github.com/npwhite/cmput404_lab1.git
+Q1: What is your GitHub URL? 
+* https://github.com/npwhite/cmput404_lab1
+
 Q2: What version is the requests library installed on the system?
 * I got a permission denied error trying to install, but my machine had version 2.9.1 installed already
+
 Q3: What version is the requests library installed in the virtualenv?
 * 2.21.0
 
@@ -14,12 +17,9 @@ Q6: What status code is returned this time? Is it the one returned by curl -i or
 * 200 is returned, same as the one returned by curl -iL
 
 Q7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
-
-Without -X POST, The Form Contents element was empty
-With -X POST, Form Contents included 'MiniFieldStorage('X', 'Y') 
-
-This method allows us to pass data to the server
-
+* Without -X POST, The Form Contents element was empty
+* With -X POST, Form Contents included 'MiniFieldStorage('X', 'Y') 
+* This method allows us to pass data to the server
 
 Q8: What is the raw URL to your Python script on GitHub?
 https://raw.githubusercontent.com/npwhite/cmput404_lab1/master/main.py
