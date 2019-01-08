@@ -1,3 +1,24 @@
-Q7: post: you get form fields, we set the varible X to Y?
-    get: no form fields 
+Q1: https://github.com/npwhite/cmput404_lab1.git
+Q2: What version is the requests library installed on the system?
+* I got a permission denied error trying to install, but my machine had version 2.9.1 installed already
+Q3: What version is the requests library installed in the virtualenv?
+* 2.21.0
+
+Q4: What is the difference between the virtual environment and the not virtual environment python?
+* The packages installed in the venv do not effect the packages/versions on the system, so we have two different versions of 'requests' installed.
+
+Q5: What status code is returned? What URL must you visit to get a 200 status code?
+* 301 is returned, you'd need to give http://www.google.com to get a 200 code. 
+
+Q6: What status code is returned this time? Is it the one returned by curl -i or curl -iL?
+* 200 is returned, same as the one returned by curl -iL
+
+Q7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+
+Without -X POST, The Form Contents element was empty
+With -X POST, Form Contents included 'MiniFieldStorage('X', 'Y') 
+
+This method allows us to pass data to the server
+
+
 Q8:
