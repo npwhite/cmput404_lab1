@@ -4,9 +4,8 @@ print(requests.__version__)
 
 r = requests.get("http://google.com/")
 print(r.status_code)
-#print(r.headers)
 
-#girhub_url = ".../main.py" # fill in ...'s based on your github path to main.py after pushing
-#r = requests.get(github_url)
-#print(r.text)
+github_url = "https://raw.githubusercontent.com/npwhite/cmput404_lab1/master/main.py"
+r = requests.get(github_url)
+print(r.text)
 

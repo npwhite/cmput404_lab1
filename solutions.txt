@@ -21,4 +21,5 @@ With -X POST, Form Contents included 'MiniFieldStorage('X', 'Y')
 This method allows us to pass data to the server
 
 
-Q8:
+Q8: What is the raw URL to your Python script on GitHub?
+https://raw.githubusercontent.com/npwhite/cmput404_lab1/master/main.py
